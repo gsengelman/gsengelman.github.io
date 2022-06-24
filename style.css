@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0ch;
+}
+body {
+    background-color:#fc2454;
+}
+.flexbox-column {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-space-around {
+    justify-content: space-around;
+}
+
+.flexbox-flex-start {
+    justify-content: flex-start;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    height: 150px;
+    border-radius: 100%;
+    border-width: 3px;
+    margin-right: 50px;
+}
+#header {
+    background-color: #f2c4ae;
+    width: 100%;
+    height: 200px;
+    box-shadow: 10px 10px 10px #8e1221;
+}
+
+#container {
+    text-align: center;
+    width: 900px;
+    align-self: center;
+    background-color: white;
+    background-image: url("https://th.bing.com/th/id/R.cb40f6fe21492c858bf270bcaf4dbce3?rik=4cbO%2fXMfyAphwg&pid=ImgRaw&r=0");
+    background-size: 100%;
+    box-shadow: 10px 10px 10px #8e1221;
+    padding-top: 20px;
+}
+
+#upper {
+    width: 900px;
+    height: 50px;
+    margin: 0;
+    background-color: white;
+    background-image: url("https://th.bing.com/th/id/R.cb40f6fe21492c858bf270bcaf4dbce3?rik=4cbO%2fXMfyAphwg&pid=ImgRaw&r=0");
+    background-size: 100%;
+    box-shadow: 10px 10px 10px #8e1221;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #fc2454;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #89697c;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+
+h4 {
+    color: #8e1221;
+    font-size: 18px;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 8px;
+}
+li {
+    font-family: 'Gloria Hallelujah', cursive;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.line {
+    height: 2px;
+    background-color: #89697c;
+    width: 80%;
+}
+
+.post-it {
+    box-shadow: 10px 5px 10px #c5c4c4;;
+    height: 380px;
+    width: 380px;
+    margin: 30px;
+}
+
+.about-color {
+    background-color:	#fbacc5
+}
+
+.education-color {
+    background-color: 	#f9efaa;
+}
+
+.experiences-color {
+    background-color: #bee5e4;
+}
+
+.programming-color {
+    background-color: 	#dee9a4;
+}
+
+.skills-color {
+    background-color: #fddbb8;
+}
+
+.cat-image {
+    width: 380px;
+    margin: 30px;
+}
+
+a {
+    color: #8e1221;
+    text-decoration: none;
+}
